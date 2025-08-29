@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    padding: 0 10rem;
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #222;
+
+    background: var(--bg);
+}

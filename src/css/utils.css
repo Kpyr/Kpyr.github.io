@@ -1,0 +1,10 @@
+a {
+    color: #2563eb;
+
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: var(--color-accent);
+    text-shadow: 0 0 0.2rem rgb(59 130 246 / 60%);
+}
