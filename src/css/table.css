@@ -1,4 +1,4 @@
-table{
+table {
     width: 100%;
 
     background: #fefefe;
@@ -9,17 +9,17 @@ table{
     border-collapse: collapse;
 }
 
-thead th{
+thead th {
     padding: 1.2rem;
 
     font-weight: 600;
     text-align: left;
 
     background: #f3f4f6;
-    border-bottom: 0.2rem solid var(--accent);
+    border-bottom: 0.2rem solid var(--color-accent);
 }
 
-tbody td{
+tbody td {
     padding: 1.2rem;
 
     border-bottom: 0.1rem solid #e5e7eb;

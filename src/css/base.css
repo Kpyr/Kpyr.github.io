@@ -2,19 +2,9 @@
 *::before,
 *::after {
     margin: 0;
-
     padding: 0;
+    
     box-sizing: border-box;
-}
-
-:root {
-    --max-width: 98rem;
-    --gap: 2.4rem;
-    --radius-lg: 1.6rem;
-    --accent: #3b82f6;
-    --muted: #6b7280;
-    --bg: #f0f4f8;
-    --card-bg: #fff;
 }
 
 html {

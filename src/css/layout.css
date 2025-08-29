@@ -1,10 +1,10 @@
-.container{
+.container {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1.6rem;
 }
 
-header{
+header {
     padding: 3.2rem 0;
 
     text-align: center;
@@ -16,28 +16,28 @@ header{
     border-bottom-right-radius: 2.4rem;
 }
 
-header h1{
+header h1 {
     font-size: 3.2rem;
     margin-bottom: 0.8rem;
 }
 
-header p{
+header p {
     font-size: 1.4rem;
 
     opacity: 0.85;
     margin-bottom: 1.6rem;
 }
 
-main{
+main {
     display: block;
     padding: 3.2rem 1.6rem;
 }
 
-main > *{
+main > section {
     margin: 2rem 0;
 }
 
-footer{
+footer {
     padding: 2.4rem 1.6rem;
 
     text-align: center;
@@ -51,8 +51,8 @@ footer{
         gap: var(--gap);
     }
 
-    main > * {
-        margin: 0;
+    main > section {
+        margin: 2rem 1rem;
     }
 
     main > section:last-child{
